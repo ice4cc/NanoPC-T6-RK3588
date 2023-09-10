@@ -84,7 +84,7 @@
 > scrcpy -s localhost:5555
 > ```
 
-![image-20230910102026455](/home/dingpc/.config/Typora/typora-user-images/image-20230910102026455.png)
+![android](./images/android.png)
 
 ## box86
 
@@ -132,7 +132,7 @@ steam需要先安装box86和box64
   > steam
   > ```
 
-![steam](/home/dingpc/图片/unknown_001.png)
+![steam](./images/steam.png)
 
 ## btop
 
@@ -144,4 +144,4 @@ steam需要先安装box86和box64
 > btop
 > ```
 
-![btop](/home/dingpc/图片/unknown_002.png)
+![btop](./images/btop.png)
