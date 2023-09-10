@@ -120,11 +120,11 @@ steam需要先安装box86和box64
 
 - 安装
 
-> ```shell
-> git clone https://github.com/ptitSeb/box86.git
-> cd ~/box86
-> ./install_steam.sh
-> ```
+  > ```shell
+  > git clone https://github.com/ptitSeb/box86.git
+  > cd ~/box86
+  > ./install_steam.sh
+  > ```
 
 - 运行
 
