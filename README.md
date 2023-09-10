@@ -4,7 +4,9 @@
 
 ## Ubuntu
 
-使用https://github.com/Joshua-Riek/ubuntu-rockchip提供的系统，具体刷机方法参考https://github.com/Joshua-Riek/ubuntu-rockchip/wiki/NanoPC-T6
+使用 https://github.com/Joshua-Riek/ubuntu-rockchip 提供的系统
+
+具体刷机方法参考: https://github.com/Joshua-Riek/ubuntu-rockchip/wiki/NanoPC-T6
 
 ## 使用容器运行Android (Android In Container )
 
