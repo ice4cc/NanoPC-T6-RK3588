@@ -1,7 +1,5 @@
 # NanoPC-T6-RK3588 Ubuntu使用记录
 
-[toc]
-
 ## Ubuntu
 
 使用 https://github.com/Joshua-Riek/ubuntu-rockchip 提供的系统
