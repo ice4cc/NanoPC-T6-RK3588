@@ -1,0 +1,2 @@
+# NanoPC-T6-RK3588
+NanoPC-T6-RK3588 使用记录
