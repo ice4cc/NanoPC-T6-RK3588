@@ -145,3 +145,25 @@ steam需要先安装box86和box64
 > ```
 
 ![btop](./images/btop.png)
+
+## 设定默认音频输出
+
+> ```shell
+> #查询音频列表
+> pactl list short sinks
+> 
+> #输出
+> 0	alsa_output.platform-dp0-sound.stereo-fallback	module-alsa-card.c	s16le 2ch 44100Hz	SUSPENDED
+> 1	alsa_output.platform-hdmi0-sound.stereo-fallback	module-alsa-card.c	s16le 2ch 44100Hz	SUSPENDED
+> 2	alsa_output.platform-hdmi1-sound.stereo-fallback	module-alsa-card.c	s16le 2ch 44100Hz	SUSPENDED
+> 3	alsa_output.platform-rt5616-sound.stereo-fallback	module-alsa-card.c	s16le 2ch 44100Hz	SUSPENDED
+
+这里选择HDMI0
+dock栏->显示应用程序->启动应用程序
+
+![boot](./images/boot.png)
+
+添加启动命令 pactl set-default-sink 'alsa_output.platform-hdmi0-sound.stereo-fallback'
+重启即可
+
+![defaultAudio](./images/defaultAudio.png)
